@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  container_example:
+    build: ./docker-container-example
+    environment:
+      - TEXTUAL_EXAMPLE=${TEXTUAL_EXAMPLE}
